@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Container from 'react-bootstrap/Container';
 import {Link} from "react-router-dom"
@@ -6,8 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-export default class NavBar extends Component {
-  render() {
+const NavBar = (props) => {
     return (
       <div>
         <Navbar bg="light" expand="lg">
@@ -36,5 +35,7 @@ export default class NavBar extends Component {
     </Navbar>
       </div>
     )
-  }
+  
 }
+
+export default NavBar

@@ -1,14 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export default class NewsItem extends Component {
-  // constructor(){
-  //   super()
-  //   // console.log("Hello")
-  // }
-  render() {
-    let { title, description, imageUrl, newsUrl, author, date } = this.props;
+const NewsItem =(props)=> {
+    let { title, description, imageUrl, newsUrl, author, date } = props;
     return (
       <Card className="my-3">
         <Card.Img
@@ -42,5 +37,7 @@ export default class NewsItem extends Component {
         </Card.Footer>
       </Card>
     );
-  }
+  
 }
+
+export default NewsItem
