@@ -8,11 +8,9 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-// require('dotenv').config()
 
 export default class App extends Component {
-  // apiKey=process.env.REACT_APP_NEWS_API
-  apiKey="5ddff45f88064d80bb6c0ae30199689e"
+  apiKey=process.env.REACT_APP_NEWS_API
   state={
     progress:0
   }
