@@ -19,12 +19,6 @@ It is used to fetch different categories news from NewsApi. The different catego
 - Redirecting to main article from Newscard
 
 
-## Deployment
-
-The app has been deployed on 
-https://newsapp-new.netlify.app/
-
-
 
 ## Run Locally
 
